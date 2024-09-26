@@ -1,5 +1,5 @@
-                 ### **NAME** --FATHIMA HASHMATH 
-                 ### **BATCH** --D25
+                FATHIMA HASHMATH 
+               -D25
 
 ---
 
