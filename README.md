@@ -16,6 +16,27 @@ The project analyzes telecommunication facility data in San Francisco, aiming to
    - Basic statistics and visualizations provided insights into the distribution of telecommunication facilities by type and location.
    - A bar chart visualized the count of different facility types, helping identify the most common types.
    - Scatter plots were used to assess the geographical distribution based on latitude and longitude.
+   - ### Visual Insights from EDA Results:
+
+1. **Distribution of Facility Types**:
+   - A bar chart visualized the frequency of different telecommunication facility types. The most common facility types are clearly identifiable, allowing us to understand which types dominate the landscape.
+
+2. **Geographic Distribution of Facilities**:
+   - Scatter plots of facility locations (latitude vs. longitude) revealed clear geographic clusters. This suggests certain areas in San Francisco have a higher density of telecommunication services, likely due to population or commercial concentration.
+
+3. **Missing Data Analysis**:
+   - A heatmap or a count of missing values highlighted which columns had missing data. Location-related fields were the most affected, requiring cleanup for further spatial analysis.
+
+4. **Correlation Matrix**:
+   - A correlation heatmap between numerical features helped to identify any strong relationships or multicollinearity. This was useful for later feature selection and determining redundant variables.
+
+5. **Boxplots for Outliers**:
+   - Boxplots were used to detect outliers in numerical features like facility age or installation year. Outliers were either treated or flagged for future investigation, ensuring the dataset was clean for analysis.
+
+6. **Facility Counts by Location**:
+   - A geographical heatmap displayed the intensity of facility distribution across the city, highlighting hotspots where telecommunication infrastructure is concentrated.
+
+These visual insights provided critical understanding of the dataset, revealing patterns, relationships, and areas needing attention before moving to more advanced analysis.
 
 2. **Data Preprocessing**:
    - Missing values in the location column were dropped to ensure the integrity of spatial data. 
